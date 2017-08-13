@@ -6,12 +6,14 @@ A simple teapot server written in Go.
 
 ## Usage
 
-```sh
-> curl https://teapot.now.sh
-< The requested entity body is short and stout.
+```
+$ curl -i https://teapot.now.sh
+  HTTP/1.1 418 I'm a teapot
+  The requested entity body is short and stout.
 
-> curl -X BREW https://teapot.now.sh
-< Brewing tea.
+$ curl -X BREW -i https://teapot.now.sh
+  HTTP/1.1 200 OK
+  Brewing tea.
 ```
 
 ## Get your own teapot server
