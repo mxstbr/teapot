@@ -19,11 +19,8 @@ $ curl -X BREW -i https://teapot.now.sh
 ## Get your own teapot server
 
 ```sh
-# Download the code
-git clone git@github.com:mxstbr/teapot.git
-
 # Deploy your own version (requires https://now.sh)
-now
+now mxstbr/teapot
 ```
 
 ## License
