@@ -1,8 +1,8 @@
 # Teapot
 
-A simple teapot server written in Go.
+A simple teapot server written in Go. [teapot.now.sh](https://teapot.now.sh)
 
-[teapot.now.sh](https://teapot.now.sh)
+![teapot server](https://user-images.githubusercontent.com/7525670/29248631-3298c1c4-801d-11e7-8619-2caef2ff15aa.png)
 
 ## Usage
 
